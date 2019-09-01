@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
+
+/* ----------------------------------- resets*/
+
+body {
+    font-family: cabin;
+}
+
+header {
+    margin: 0;
+    margin-top: 25px;
+}
+
+footer {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 15%; 
+    background-color: black;
+}
+
+/* ----------------------------------- test-styles*/
+
+.content {
+    background-color: lightgrey;
+    margin: 20px 0px;
+}
+
+.logo {
+padding: 0px;
+}
+
+.header-titles {
+ max-width:100%;
+ padding: 0px;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.my-container {
+    border: 1px solid green;
+}
+
+.my-row {
+    border: 3px solid red;
+}
+
+.my-row-nested {
+    border: 3px solid yellow;
+}
+
+.my-col {
+    border: 2px dotted blue;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    margin-bottom: 10px;
+}
