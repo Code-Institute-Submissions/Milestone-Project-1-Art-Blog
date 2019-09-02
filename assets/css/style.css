@@ -5,20 +5,19 @@
 body {
     font-family: cabin;
     background-color: #bf7406;
+    height: 100%;
 }
 
 header {
     margin: 0;
 }
 
-footer {
-    position: fixed; 
-    bottom: 0px; 
-    width: 100%; 
-    height: 10%; 
-    background-color: black;
+ footer {
     margin-top: 50px;
+    background-color: black;
 }
+
+
 
 /* ----------------------------------- construct-styles*/
 
@@ -34,6 +33,10 @@ footer {
     border: 2px dotted blue;
 }
 
+.my-footer {
+    height: 60px;
+    
+
 .container {
     margin-bottom: 10px;
     background-color: lightgrey;
@@ -42,4 +45,10 @@ footer {
 .container-fluid {
     margin-bottom: 10px;
     background-color: lightgrey;
+}
+
+.artist {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: auto;
 }
