@@ -14,8 +14,8 @@
 
 <body>
 
-    <header>
-        <div class="container-fluid my-container">
+    <header class="m-0">
+        <div class="container-fluid p-0">
             <div class="row my-row">
                 <div class="col-12 my-col">
                     <nav class="navbar navbar-light navbar-expand-sm bg-light">
@@ -23,7 +23,6 @@
                     The MtG Flavourist</a>
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item mr-2"><a class="nav-link" href="/">About</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="">Features</a></li>
                             <li class="nav-item mr-2"><a class="nav-link" href="">Contact</a></li>
                         </ul>
 
@@ -37,48 +36,70 @@
     </header>
 
     <section>
-        <div class="container my-container">
-            <div class="row my-row">
-                <div class="col-12">
-                    <h3 class="text-center">Breaking News!</h3>
-                    <div class="div jumbotron text-center"><h4>Throne of Eldraine Set Anounced!</h4></div>
+        <div class="news p-3">
+            <div class="container news-container border border-danger rounded">
+                <div class="row my-row my-3">
+                    <div class="col-12">
+                        <h3 class="text-center">Breaking News: Throne of Eldraine Announced!</h3>
+                    </div>
+                </div>
+
+                <div class="jumbotron news-tron rounded m-3">
+                    <div class="row my-row">
+                        <div class="col-12 mb-1">
+                            <h4 class=text-center>Throne of Eldraine Set Anounced!</h4>
+                        </div>
+                    </div>
+                    <div class="row my-row">
+                        <div class="col-sm-12 col-md-6">
+                            <p class="text-center">Anouncement Page</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text-center mb-0">Spoiler Page</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container my-container">
-            <div class="row my-row">
-                <div class="col-12 my-col">
-                    <p class="text-justified text-center">Featured Article</p>
-                </div>
-            </div>
-            <div class="row my-row">
-                <div class="col-12 my-col">
-                    <h5 class="text-justified text-left">Core Set 2020: Artist Spotlight!</h5>
-                </div>
-            </div>
-            <div class="row my-row">
-                <div class="col-12 my-col">
-                    <div class="article-container text-center border m-auto">
-                        <img src="assets/images/nb.jpg" />
-                        <p>Noah Bradley</p>
+        <hr class="m-3">
+        <div class="container my-container border border-danger rounded">
+            <div class="m-3">
+                <div class="row my-row">
+                    <div class="col-12 my-col">
+                        <h3 class="text-justified text-left my-3">Featured Articles</h3>
                     </div>
                 </div>
-                <div class="col-12 my-col">
-                    <div class="article-container text-center border m-auto">
-                        <img class="img-fluid artist-img" src="assets/images/as.jpeg" />
-                        <p>Anna Steinbauer</p>
+                <div class="m-3 p-3 border border-danger rounded">
+                    <div class="row my-row">
+                        <div class="col-sm-12 my-col">
+                            <h5 class="text-center">Core Set 2020: Artist Spotlight!</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 my-col">
-                    <div class="article-container text-center border m-auto">
-                        <img class="img-fluid artist-img" src="assets/images/sm2.png" />
-                        <p>Seb McKinnon</p>
+                    <div class="row my-row">
+                        <div class="col-sm-12 col-md-4 my-col">
+                            <div class="article-container text-center border m-auto p-3">
+                                <img class="img-fluid rounded-circle" src="assets/images/nb.jpg" />
+                                <h5 class="m-0">Noah Bradley</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 my-col">
+                            <div class="article-container text-center border m-auto p-3">
+                                <img class="img-fluid rounded-circle" src="assets/images/as.jpeg" />
+                                <h5 class="m-0">Anna Steinbauer</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 my-col">
+                            <div class="article-container text-center border m-auto p-3">
+                                <img class="img-fluid rounded-circle" src="assets/images/sm2.png" />
+                                <h5 class="m-0">Seb McKinnon</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <footer>
         <div class="container-fluid my-container">
             <div class="row my-row">
@@ -89,7 +110,8 @@
                     LINKS
                 </div>
                 <div class="col-12 my-col">
-                    COPYRIGHT
+                    <p>All original content on this page is © 2012-2019 The MtG Flavourist, Inc. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. ©
+                        1995-2019 Wizards. All rights reserved. The MtG Flavourist, Inc. is not affiliated with Wizards of the Coast LLC.</p>
                 </div>
             </div>
         </div>

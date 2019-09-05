@@ -4,7 +4,6 @@
 
 body {
     font-family: cabin;
-    background-color: #bf7406;
     height: 100%;
 }
 
@@ -19,7 +18,7 @@ header {
 
 
 
-/* ----------------------------------- construct-styles*/
+/* ----------------------------------- construct-styles
 
 .my-container {
     border: 1px solid green;
@@ -51,4 +50,34 @@ header {
     border: 1px solid black;
     border-radius: 50%;
     width: auto;
+}
+
+
+
+.header-container {
+    width: 100%;
+}
+
+.my-container {
+    padding: 0;
+}
+
+*/
+
+.news-container {
+    background: url("../images/newsback.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news {
+    background-color: darkgrey;
+}
+
+.news-tron {
+    background: url("../images/ThroneofE.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
