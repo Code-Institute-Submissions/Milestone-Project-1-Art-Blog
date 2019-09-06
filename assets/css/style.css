@@ -14,6 +14,7 @@ header {
  footer {
     margin-top: 50px;
     background-color: black;
+    color: white;
 }
 
 
@@ -75,9 +76,19 @@ header {
     background-color: darkgrey;
 }
 
+.news1 {
+    background-color: black;
+}
+
 .news-tron {
+    min-height: 282px;
     background: url("../images/ThroneofE.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.artist-cont {
+    background-color: lightgrey;
+}
+
