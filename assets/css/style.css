@@ -82,13 +82,28 @@ header {
 
 .news-tron {
     min-height: 282px;
-    background: url("../images/ThroneofE.jpg");
+    /* background: url("../images/ThroneofE.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .artist-cont {
     background-color: lightgrey;
 }
 
+@media (max-width:767px) {
+    .news-tron {
+    min-height: 370px;
+    min-width: 265px;
+    background: url("../images/gman.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+    }
+    
+}
