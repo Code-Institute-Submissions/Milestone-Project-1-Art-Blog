@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
 
-/* ----------------------------------- resets*/
+/*---------------HTML ELEMENT STYLES/RESETS*/
 
 body {
+    background-color: lightgrey;
     font-family: cabin;
     height: 100%;
 }
@@ -17,53 +18,32 @@ header {
     color: white;
 }
 
+/* ---------------NAV STYLES*/
 
+/* ---COLOURS*/
 
-/* ----------------------------------- construct-styles
-
-.my-container {
-    border: 1px solid green;
+.nav-bk {
+    background-color: black;
 }
 
-.my-row {
-    border: 3px solid red;
+.nav-bk a {
+    color: white;
 }
 
-.my-col {
-    border: 2px dotted blue;
+/* ---STYLES*/
+
+.nav-btn {
+    border: 1px solid white;
+    background-color: white;
+    -moz-box-shadow:    inset 0 0 10px #dc3545;
+    -webkit-box-shadow: inset 0 0 10px #dc3545;
+    box-shadow:         inset 0 0 10px #dc3545;
 }
 
-.my-footer {
-    height: 60px;
-    
-
-.container {
-    margin-bottom: 10px;
-    background-color: lightgrey;
-}
-
-.container-fluid {
-    margin-bottom: 10px;
-    background-color: lightgrey;
-}
-
-.artist {
-    border: 1px solid black;
-    border-radius: 50%;
-    width: auto;
-}
+/* ---------------SECTION STYLES*/
 
 
 
-.header-container {
-    width: 100%;
-}
-
-.my-container {
-    padding: 0;
-}
-
-*/
 
 .news-container {
     background: url("../images/newsback.jpg");
@@ -94,16 +74,33 @@ header {
     background-color: lightgrey;
 }
 
-@media (max-width:767px) {
-    .news-tron {
-    min-height: 370px;
-    min-width: 265px;
-    background: url("../images/gman.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid black;
-    border-radius: 5px;
+
+
+
+
+.my-slogan {
+    color: #dc3545;
+}
+
+/* \/\/ jmore009 - StackOverflow \/\/ */
+
+    .mobile-image {
+        display: none;
     }
+
+    @media (max-width:767px) {
+        .news-banner {
+            display: none;
+        }
     
+        .mobile-image {
+            display: block;
+            margin: auto;
+        }
+    }
+
+/* /\/\ jmore009 - StackOverflow /\/\ */
+
+.soc-icon {
+    margin: 0 10px;
 }
