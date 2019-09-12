@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
 
-/*---------------HTML ELEMENT STYLES/RESETS*/
+/*--------------------------------------------------HTML ELEMENT STYLES/RESETS*/
 
 body {
     background-color: lightgrey;
@@ -18,7 +18,7 @@ header {
     color: white;
 }
 
-/* ---------------NAV STYLES*/
+/* -----------------------------------------------------------------NAV STYLES*/
 
 /* ---COLOURS*/
 
@@ -28,6 +28,10 @@ header {
 
 .nav-bk a {
     color: white;
+}
+
+.web-slogan {
+    color: #dc3545;
 }
 
 /* ---STYLES*/
@@ -40,17 +44,9 @@ header {
     box-shadow:         inset 0 0 10px #dc3545;
 }
 
-/* ---------------SECTION STYLES*/
+/* -------------------------------------------------------------SECTION STYLES*/
 
-
-
-
-.news-container {
-    background: url("../images/newsback.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* ---COLOURS*/
 
 .news {
     background-color: darkgrey;
@@ -58,6 +54,19 @@ header {
 
 .news1 {
     background-color: black;
+}
+
+.artist-cont {
+    background-color: lightgrey;
+}
+
+/* ---STYLES*/
+
+.news-container {
+    background: url("../images/newsback.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .news-tron {
@@ -70,23 +79,25 @@ header {
     border-radius: 5px;
 }
 
-.artist-cont {
-    background-color: lightgrey;
+.mobile-image {
+    display: none;
 }
 
+/* --------------------------------------------------------------FOOTER STYLES*/
 
+/* ---COLOURS*/
 
+/* ---STYLES*/
 
-
-.my-slogan {
-    color: #dc3545;
+.soc-icon {
+    margin: 0 10px;
 }
+
+/* --------------------------------------------------------------MEDIA QUERIES*/
+
+/* ---SECTION QUERIES*/
 
 /* \/\/ jmore009 - StackOverflow \/\/ */
-
-    .mobile-image {
-        display: none;
-    }
 
     @media (max-width:767px) {
         .news-banner {
@@ -101,6 +112,4 @@ header {
 
 /* /\/\ jmore009 - StackOverflow /\/\ */
 
-.soc-icon {
-    margin: 0 10px;
-}
+/* -----------------------------------------------------------------STYLES END*/
