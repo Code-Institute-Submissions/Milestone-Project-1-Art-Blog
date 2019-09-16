@@ -15,21 +15,50 @@
 <body>
 
     <header>
+        <div class="modal fade fade bd-example-modal-xl" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">About The MTG Flavourist</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h6>Welcome!</h6>
+                                </div>
+                                <div class="col-12">
+                                    <p>The MTG Flavourist the home of news surrounding the lore and flavour of the collectable card game, Magic: The Gathering.
+                                    </p>
+                                    <p>Sign up to our Newsletter to be informed of news articles, exciting oppotunities, Artist interviews and more!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!---TOGGLE NAVBAR START--->
         <nav class="nav-bk navbar navbar-expand-sm mb-2">
-            <a href="index.html" class="navbar-brand">The MTG Flavourist</a>
+            <a href="index.html" class="navbar-brand mr-2 txt-anchor-nav">The MTG Flavourist</a>
             <button class="nav-btn navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="">About</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">About</button>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="">Contact Us</a>
+                        <a class="nav-link txt-anchor-nav" href="">Contact Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <li class="nav-item mr-2 d-block d-sm-none">
-                            <a class="nav-link" href="">Sign up to our Newsletter!</a>
+                            <a class="nav-link txt-anchor-nav" href="">Sign up to our Newsletter!</a>
                         </li>
                 </ul>
             </div>
@@ -37,7 +66,7 @@
                 <p class="web-slogan navbar-text my-auto mr-4">
                     <i>The Courtyard of MtG Lore & Flavour</i>
                 </p>
-                <a href="/login">Sign up to our Newsletter!</a>
+                <a class="nav-item txt-anchor-nav" href="/login">Sign up to our Newsletter!</a>
             </div>
         </nav>
         <!---TOGGLE NAVBAR END--->
@@ -61,7 +90,7 @@
                     </div>
                 </div>
                 <a href="https://magic.wizards.com/en/articles/archive/card-image-gallery/throne-eldraine" target="_blank">
-                    <h4 class="text-center my-3">Card Image Gallery</h4>
+                    <h4 class="text-center my-3 txt-anchor">Card Image Gallery</h4>
                 </a>
             </div>
         </div>
