@@ -50,11 +50,25 @@ a {
     box-shadow:         inset 0 0 10px #dc3545;
 }
 
+.pop-btn {
+    padding: 0px;
+    background-color: black;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: .5rem;
+}
+
 .txt-anchor-nav:hover {
-    background-color:#dc3545;
-    padding: 0 10px;
-    border: 1px solid white;
-    border-radius: 5px;
+    text-decoration: none;
+    color:#dc3545;
+}
+
+.pop-btn:hover {
+    text-decoration: none;
+    color:#dc3545;
+    background-color: black;
+    border-color: inherit;
 }
 
 /* -------------------------------------------------------------SECTION STYLES*/
