@@ -32,7 +32,7 @@
                                     <h6>Welcome!</h6>
                                 </div>
                                 <div class="col-12">
-                                    <p>The MTG Flavourist the home of news surrounding the lore and flavour of the collectable card game, Magic: The Gathering.
+                                    <p>The MTG Flavourist is the home of news surrounding the lore and flavour of the collectable card game, Magic: The Gathering.
                                     </p>
                                     <p>Sign up to our Newsletter to be informed of news articles, exciting oppotunities, Artist interviews and more!</p>
                                 </div>
@@ -52,7 +52,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">About The MTG Flavourist</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">The MTG Flavourist Newsletter!</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -60,13 +60,24 @@
                     <div class="modal-body">
                         <div class="container-fluid">
                             <div class="row">
+                                <div class="col-12 mb-3">Sign up here!</div>
                                 <div class="col-12">
-                                    <h6>Welcome!</h6>
-                                </div>
-                                <div class="col-12">
-                                    <p>The MTG Flavourist the home of news surrounding the lore and flavour of the collectable card game, Magic: The Gathering.
-                                    </p>
-                                    <p>Sign up to our Newsletter to be informed of news articles, exciting oppotunities, Artist interviews and more!</p>
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="col-6">
+                                                <input type="text" class="form-control mb-3" placeholder="First Name">
+                                            </div>
+                                            <div class="col-6">
+                                                <input type="text" class="form-control mb-3" placeholder="Last Name">
+                                            </div>
+                                            <div class="col-12">
+                                                <input type="email" class="form-control mb-3" placeholder="Email Address">
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="btn btn-primary ml-auto">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -82,18 +93,19 @@
         <!---TOGGLE NAVBAR START--->
         <nav class="nav-bk navbar navbar-expand-sm mb-2">
             <a href="index.html" class="navbar-brand mr-4 txt-anchor-nav">The MTG Flavourist</a>
-            <button class="nav-btn navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+            <button class="nav-btn navbar-toggler ml-auto tog-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-2">
-                        <button type="button" class="btn btn-primary pop-btn" data-toggle="modal" data-target="#aboutModal">About</button>
+                        <button type="button" class="btn pop-btn" data-toggle="modal" data-target="#aboutModal">About</button>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link txt-anchor-nav" href="">Contact Us</a> <!--Add Media Query of .5rem padding left-->
+                        <a class="txt-anchor-contact nav-link" href="">Contact Us</a>
+                        <!--Add Media Query of .5rem padding left-->
                     </li>
                     <li class="nav-item dropdown">
                         <li class="nav-item mr-2 d-block d-sm-none">
-                            <button type="button" class="btn btn-primary pop-btn" data-toggle="modal" data-target="#newsletterModal">Sign up to our Newsletter!</button>
+                            <button type="button" class="btn pop-btn" data-toggle="modal" data-target="#newsletterModal">Sign up to our Newsletter!</button>
                         </li>
                 </ul>
             </div>
@@ -101,7 +113,7 @@
                 <p class="d-md-none d-lg-inline web-slogan navbar-text my-auto mr-4">
                     <i>The Courtyard of MtG Lore & Flavour</i>
                 </p>
-                <button type="button" class="btn btn-primary pop-btn" data-toggle="modal" data-target="#newsletterModal">Sign up to our Newsletter!</button>
+                <button type="button" class="btn pop-btn" data-toggle="modal" data-target="#newsletterModal">Sign up to our Newsletter!</button>
             </div>
         </nav>
         <!---TOGGLE NAVBAR END--->
@@ -118,24 +130,25 @@
                 </div>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <a href="https://www.youtube.com/watch?v=mzBrfW7Ipzg" target="_blank">
+                        <a class="news-banner" href="https://www.youtube.com/watch?v=mzBrfW7Ipzg" target="_blank">
                             <img class="news-banner img-fluid" src="assets/images/ThroneofE.jpg" />
                             <img class="mobile-image img-fluid" src="assets/images/gman.png" />
                         </a>
                     </div>
                 </div>
                 <a href="https://magic.wizards.com/en/articles/archive/card-image-gallery/throne-eldraine" target="_blank">
-                    <h4 class="text-center my-3 txt-anchor">Card Image Gallery</h4>
+                    <h2 class="text-center my-3 txt-anchor">Card Image Gallery</h2>
                 </a>
             </div>
         </div>
         <!---NEWS/ADVERT BLOCK END--->
+        
         <!---ARTICLE BLOCK START--->
         <div class="news-container container border border-danger rounded my-3">
             <div class="m-3">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="text-justified text-left my-3">Featured Articles</h3>
+                        <h2 class="text-center text-left my-3">Featured Articles</h2>
                     </div>
                 </div>
                 <!---1st ARTICLE START--->
@@ -146,22 +159,16 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-4 mb-2">
+                        <div class="col-sm-12 col-md-6 mb-2">
                             <div class="artist-cont text-center border border-danger m-auto p-3">
                                 <img class="img-fluid rounded-circle" src="assets/images/nb.jpg" />
                                 <h5 class="m-0">Noah Bradley</h5>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 my-col mb-2">
+                        <div class="col-sm-12 col-md-6 my-col mb-2">
                             <div class="artist-cont text-center border border-danger m-auto p-3">
                                 <img class="img-fluid rounded-circle" src="assets/images/as.jpeg" />
                                 <h5 class="m-0">Anna Steinbauer</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 my-col mb-2">
-                            <div class="artist-cont text-center border border-danger m-auto p-3">
-                                <img class="img-fluid rounded-circle" src="assets/images/sm2.png" />
-                                <h5 class="m-0">Seb McKinnon</h5>
                             </div>
                         </div>
                     </div>
