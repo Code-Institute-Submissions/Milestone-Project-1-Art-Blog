@@ -143,12 +143,22 @@ a:hover {
     transition: 1s;
 }
 
+.artist-page {
+    color: #212529;
+    transition: 1s;
+}
+
 .txt-anchor:hover {
     color: white;
 }
 
-.news-banner:hover {
+.news-banner:hover, .mobile-image:hover {
     box-shadow: 0px 0px 25px #fff;
+}
+
+.artist-page:hover {
+    transform: scale(1.1);
+    color:#dc3545;
 }
 
 /* --------------------------------------------------------------FOOTER STYLES*/
@@ -159,6 +169,11 @@ a:hover {
 
 .soc-icon {
     margin: 0 10px;
+    transition: .5s;
+}
+
+.soc-icon:hover {
+    color: #dc3545; 
 }
 
 /* --------------------------------------------------------------MEDIA QUERIES*/
@@ -175,6 +190,7 @@ a:hover {
         .mobile-image {
             display: block;
             margin: auto;
+            border-radius: 12px;
         }
     }
 
