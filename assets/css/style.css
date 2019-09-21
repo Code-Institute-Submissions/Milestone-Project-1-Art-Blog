@@ -122,6 +122,8 @@ a:hover {
     background-size: cover;
 }
 
+
+
 .news-tron {
     min-height: 282px;
     background-position: center;
@@ -129,6 +131,10 @@ a:hover {
     background-size: cover;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.img-framed {
+    border: 3px solid #dc3545;
 }
 
 .mobile-image {
@@ -146,6 +152,37 @@ a:hover {
 .artist-page {
     color: #212529;
     transition: 1s;
+    width: auto;
+}
+
+.test-row {
+}
+
+.test-col1 {
+    position: relative;
+    height: 100%;
+}
+
+.test-col2 {
+    Position: relative;
+    height: 100%;
+}
+
+.art-bio {
+  padding: 1rem;
+  font-size: medium;
+  margin:0;
+  line-height: 1.5;
+  word-wrap: break-word; 
+}
+
+.carousel-inner {
+    padding: 1rem;
+}
+
+.web-img {
+    border: 2px solid White;
+    max-height: 650px;
 }
 
 .txt-anchor:hover {
