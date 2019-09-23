@@ -146,26 +146,13 @@ a:hover {
     margin: auto;
     width: 50%;
     padding: .5rem;
-    transition: 1s;
+    transition: .5s ease-in-out;
 }
 
 .artist-page {
     color: #212529;
     transition: 1s;
     width: auto;
-}
-
-.test-row {
-}
-
-.test-col1 {
-    position: relative;
-    height: 100%;
-}
-
-.test-col2 {
-    Position: relative;
-    height: 100%;
 }
 
 .art-bio {
