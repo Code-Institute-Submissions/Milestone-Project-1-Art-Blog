@@ -13,7 +13,6 @@ header {
 }
 
  footer {
-    margin-top: 50px;
     background-color: black;
     color: white;
 }
@@ -53,6 +52,7 @@ a:hover {
 }
 
 .nav-btn {
+    color: black;
     border: 1px solid white;
     background-color: white;
     -moz-box-shadow:    inset 0 0 10px #dc3545;
@@ -75,9 +75,14 @@ a:hover {
     color:#dc3545;
 }
 
-.txt-anchor-contact:hover {
+.txt-anchor-a:hover {
     text-decoration: none;
     color:#dc3545;
+}
+
+.set-title {
+    text-align:center;
+    color:#dc3545 ;
 }
 
 .pop-btn:hover {
@@ -105,10 +110,6 @@ a:hover {
     background-color: darkgrey;
 }
 
-.news1 {
-    background-color: black;
-}
-
 .artist-cont {
     background-color: lightgrey;
 }
@@ -116,10 +117,26 @@ a:hover {
 /* ---STYLES*/
 
 .news-container {
-    background: url("../images/newsback.jpg");
+    background-image: url("../images/newsback.jpg");
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-top-color: #dc3545;
+    border-top-style: double;
+    border-bottom-color: #dc3545;
+    border-bottom-style: double;
+}
+
+.dropdown-menu {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.dropdown-item {
+    color: white;
 }
 
 
@@ -166,6 +183,54 @@ a:hover {
 .carousel-inner {
     padding: 1rem;
 }
+
+.title-div {
+    background: rgb(211,211,211,0.3);
+    
+}
+
+.landing-section {
+    
+    position: relative;
+    background-image: url("../images/mtgback.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #464646;
+    width: auto;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+}
+
+.background-div {
+    background-color: #464646;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    border-top-color: #dc3545;
+    border-top-style: double;
+}
+
+.bottom-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    margin: auto;
+}
+
+.landing-header, .landing-statement {
+    color: white;
+    vertical-align: top;
+    text-align: left;
+}
+
+
 
 .web-img {
     border: 2px solid White;
@@ -225,5 +290,37 @@ a:hover {
         width: 100%;
     }
 }
+
+@media (max-width: 767px) {
+    .landing-section {
+        background-color: black;
+        background-size: contain;
+        background-position: center top;
+        height: 180px;
+    }
+    .title-div {
+        background-color: black;
+    }
+    .landing-header {
+        font-size: 2rem;
+    }
+    .landing-statement {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 424px ) {
+    .landing-section {
+        height: 175px;
+    }
+}
+
+@media (max-width: 374px ) {
+    .landing-section {
+        height: 150px;
+    }
+}
+
+
 
 /* -----------------------------------------------------------------STYLES END*/
