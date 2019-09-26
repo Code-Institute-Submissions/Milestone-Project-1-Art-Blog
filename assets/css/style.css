@@ -70,6 +70,26 @@ a:hover {
     transition: 0.5s;
 }
 
+.call-btn {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(220, 53, 69);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.call-btn:hover {
+    color: rgba(255, 255, 255, 5);
+    box-shadow: 0 0 15px rgba(220, 53, 69, .8);
+}
+
+.call-btn-text {
+    font-size: 1rem;
+    margin: 0px;
+}
+
 .txt-anchor-nav:hover {
     text-decoration: none;
     color:#dc3545;
@@ -117,7 +137,7 @@ a:hover {
 /* ---STYLES*/
 
 .news-container {
-    background-image: url("../images/newsback.jpg");
+    background-image: url("../images/Mountback.jpg");
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,6 +223,13 @@ a:hover {
     margin: 0px 0px 0px 0px;
 }
 
+.call-to-action {
+    background-color: black;
+    color: white;
+    border-top-style: double;
+    border-top-color: #dc3545;
+}
+
 .background-div {
     background-color: #464646;
     position: relative;
@@ -230,6 +257,9 @@ a:hover {
     text-align: left;
 }
 
+.news-header, .news-breaker {
+    color: white;
+}
 
 
 .web-img {
