@@ -39,17 +39,7 @@ a:hover {
     color: white;
 }
 
-.web-slogan {
-    color: #dc3545;
-}
-
 /* ---STYLES*/
-
-
-
-.nav-link.txt-anchor-contact {
-    padding: .5rem;
-}
 
 .nav-btn {
     color: black;
@@ -128,28 +118,9 @@ a.txt-anchor-a {
 
 /* -------------------------------------------------------------SECTION STYLES*/
 
-/* ---COLOURS*/
-
-.news {
-    background-color: darkgrey;
-}
-
-/*-- .artist {
-    background-color: black;
-    border-top-color: #dc3545;
-    border-top-style: double;
-    border-bottom-color: #dc3545;
-    border-bottom-style: double;
-}
---*/
-
-.art-link:hover {
-    color: red;
-}
-
 /* ---STYLES*/
 
-.news-container {
+.content-container {
     background-image: url("../images/Mountback.jpg");
     background-color: black;
     background-position: center;
@@ -170,21 +141,6 @@ a.txt-anchor-a {
 
 .dropdown-item {
     color: white;
-}
-
-
-
-.news-tron {
-    min-height: 282px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-.img-framed {
-    border: 3px solid #dc3545;
 }
 
 .mobile-image {
@@ -212,14 +168,6 @@ a.txt-anchor-a {
   line-height: 1.5;
   word-wrap: break-word; 
 }
-
-/*.carousel-back {
-    background-color: black;
-    border-top-color: #dc3545;
-    border-top-style: double;
-    border-bottom-color: #dc3545;
-    border-bottom-style: double;
-} */
 
 .car-img {
     background-color: black;
@@ -308,11 +256,6 @@ a.txt-anchor-a {
 .news-header, .news-breaker {
     color: white;
 }
-
-.news-row {
-    height: 350px;
-}
-
 
 .web-img {
     border: 2px solid White;
