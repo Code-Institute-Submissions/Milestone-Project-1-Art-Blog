@@ -80,6 +80,10 @@ a:hover {
     transition: all 0.2s ease-in-out;
 }
 
+a.txt-anchor-a {
+    padding: .5rem !important;
+}
+
 .call-btn:hover {
     color: rgba(255, 255, 255, 5);
     box-shadow: 0 0 15px rgba(220, 53, 69, .8);
@@ -130,8 +134,17 @@ a:hover {
     background-color: darkgrey;
 }
 
-.artist-cont {
-    background-color: lightgrey;
+/*-- .artist {
+    background-color: black;
+    border-top-color: #dc3545;
+    border-top-style: double;
+    border-bottom-color: #dc3545;
+    border-bottom-style: double;
+}
+--*/
+
+.art-link:hover {
+    color: red;
 }
 
 /* ---STYLES*/
@@ -200,15 +213,16 @@ a:hover {
   word-wrap: break-word; 
 }
 
-.carousel-back {
+/*.carousel-back {
     background-color: black;
     border-top-color: #dc3545;
     border-top-style: double;
     border-bottom-color: #dc3545;
     border-bottom-style: double;
-}
+} */
 
 .car-img {
+    background-color: black;
     border-radius: 5px;
     box-shadow: 0px 0px 3px 5px #f2e1f2;
     
@@ -220,8 +234,28 @@ a:hover {
     
 }
 
+.fa-angle-left, .fa-angle-right {
+    color: white;
+    opacity: 1.0;
+    transition: .5s ease-in-out;
+}
+
+.fa-angle-left:hover, .fa-angle-right:hover {
+    color: red;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1.0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .landing-section {
-    
     position: relative;
     background-image: url("../images/mtgback.jpg");
     background-position: center center;
@@ -241,6 +275,10 @@ a:hover {
     border-top-color: #dc3545;
 }
 
+.art-img {
+    box-shadow: 0px 0px 3px 5px #f2e1f2;
+}
+
 .background-div {
     background-color: #464646;
     position: relative;
@@ -248,7 +286,6 @@ a:hover {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    
     width: auto;
     margin: 0px 0px 0px 0px;
     border-top-color: #dc3545;
