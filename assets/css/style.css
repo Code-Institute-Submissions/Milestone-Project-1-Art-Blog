@@ -200,9 +200,20 @@ a:hover {
   word-wrap: break-word; 
 }
 
-.carousel-inner {
-    padding: 1rem;
+.carousel-back {
+    background-color: black;
+    border-top-color: #dc3545;
+    border-top-style: double;
+    border-bottom-color: #dc3545;
+    border-bottom-style: double;
 }
+
+.car-img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 5px #f2e1f2;
+    
+}
+
 
 .title-div {
     background: rgb(211,211,211,0.3);
@@ -259,6 +270,10 @@ a:hover {
 
 .news-header, .news-breaker {
     color: white;
+}
+
+.news-row {
+    height: 350px;
 }
 
 
@@ -348,6 +363,18 @@ a:hover {
 @media (max-width: 374px ) {
     .landing-section {
         height: 150px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .news-header {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px ) {
+    .news-breaker {
+        font-size: 1rem;
     }
 }
 
