@@ -32,6 +32,7 @@ Magic: The Gathering is reknowned for its storylines and artwork and a netflix a
 * Imbedded video on index html to allow viewers to watch a trailer without leaving my website.
 * A navbar with two modal buttons, one containing a form, that blend into the rest of the nav. As well as a dropdown.
 * Carousel content on artist spotlight pages shift from full art to card images based on page breaks.
+* Call to Action on index.html is built into a collapse div to save space, and hide the content. The button is design to draw users to it so the content is ok to be hidden.
 
 ### Suggested Next Features
 
