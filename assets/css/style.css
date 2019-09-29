@@ -27,6 +27,10 @@ a:hover {
     text-decoration: none;
 }
 
+label {
+    color: white;
+}
+
 /* -----------------------------------------------------------------NAV STYLES*/
 
 /* ---COLOURS*/
@@ -120,6 +124,13 @@ a.txt-anchor-a {
 
 /* ---STYLES*/
 
+.tb-border-red {
+    border-top-color: #dc3545;
+    border-top-style: double;
+    border-bottom-color: #dc3545;
+    border-bottom-style: double;
+}
+
 .content-container {
     background-image: url("../images/Mountback.jpg");
     background-color: black;
@@ -162,6 +173,7 @@ a.txt-anchor-a {
 }
 
 .art-bio {
+  color: white;
   padding: 1rem;
   font-size: medium;
   margin:0;
@@ -253,6 +265,15 @@ a.txt-anchor-a {
     text-align: left;
 }
 
+.col-form-label {
+    color: white;
+}
+
+.contact-breaker {
+    color: white;
+    background-color: white;
+}
+
 .news-header, .news-breaker {
     color: white;
 }
@@ -288,6 +309,26 @@ a.txt-anchor-a {
 
 .soc-icon:hover {
     color: #dc3545; 
+}
+
+.soc-icon-link {
+    color: white;
+    margin: auto;
+    transition: 1s;
+    width: 50%;
+}
+
+.soc-icon-link:hover {
+    color: #dc3545;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.btn.focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 /* --------------------------------------------------------------MEDIA QUERIES*/
@@ -355,6 +396,12 @@ a.txt-anchor-a {
 @media (max-width: 767px ) {
     .news-breaker {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 767px ) {
+    .soc-icon-link {
+        width: 100%;
     }
 }
 

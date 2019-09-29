@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Magic: The Gathering">
+    <meta name="description" content="Art Blog">
+    <meta name="keywords" content="Eldraine,Magic,Core,Set,Wizards,Flavourist,Artist,Art">
+    <meta name="author" content="Jason Murdie">
+    <link rel="shortcut icon" href="https://magic.wizards.com/sites/all/themes/wiz_mtg/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
@@ -22,8 +27,8 @@
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">About The MTG Flavourist</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
                     <div class="modal-body">
                         <div class="container-fluid">
@@ -54,13 +59,16 @@
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">The MTG Flavourist Newsletter!</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
                     <div class="modal-body">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-12 mb-3">Sign up here!</div>
+                                <div class="col-12 mb-3 text-center">
+                                    <p class="call-btn">Be within the first 100 magicians to sign up to be entered into an Eldraine give away!</p>
+                                    <h4>Sign up here!</h4>
+                                </div>
                                 <div class="col-12">
                                     <form>
                                         <div class="form-row">
@@ -91,8 +99,8 @@
         <!---NEWS LETTER MODAL END--->
 
         <!---TOGGLE NAVBAR START--->
-        <nav class="nav-bk navbar navbar-expand-sm mb-2">
-            <a href="index.html" class="navbar-brand mr-4 txt-anchor-nav">The MTG Flavourist</a>
+        <nav class="nav-bk navbar navbar-expand-sm">
+            <a href="index.html" class="navbar-brand mr-4 txt-anchor-nav">Home</a>
             <button class="nav-btn navbar-toggler ml-auto tog-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
@@ -100,8 +108,18 @@
                         <button type="button" class="btn pop-btn" data-toggle="modal" data-target="#aboutModal">About</button>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="txt-anchor-contact nav-link" href="">Contact Us</a>
-                        <!--Add Media Query of .5rem padding left-->
+                        <a class="txt-anchor-a nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown mr-2">
+                        <a class="txt-anchor-a nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Artist Spotlight</a>
+                        <div class="dropdown-menu">
+                            <h5 class="ml-2 set-title">Coreset 2020</h5>
+                            <a class="dropdown-item txt-anchor-a" href="noahbrad.html">Noah Bradley</a>
+                            <a class="dropdown-item txt-anchor-a" href="annastein.html">Anna Steinbauer</a>
+                            <div class="dropdown-divider"></div>
+                            <h5 class="ml-2 set-title">Throne of Eldraine</h5>
+                            <a class="dropdown-item txt-anchor-a" href="#">Coming Soon!</a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown">
                         <li class="nav-item mr-2 d-block d-sm-none">
@@ -110,141 +128,138 @@
                 </ul>
             </div>
             <div class="d-none d-md-block">
-                <p class="d-md-none d-lg-inline web-slogan navbar-text my-auto mr-4">
-                    <i>The Courtyard of MtG Lore & Flavour</i>
-                </p>
                 <button type="button" class="btn pop-btn" data-toggle="modal" data-target="#newsletterModal">Sign up to our Newsletter!</button>
             </div>
         </nav>
         <!---TOGGLE NAVBAR END--->
     </header>
 
-    <section>
-        <!---NEWS/ADVERT BLOCK START--->
-        <div class="news1 p-3 mb-2">
-            <div class="container news-container border border-danger rounded text-center">
-                <div class="row my-3">
-                    <div class="col-12">
-                        <h2 class="text-center">Contact the MtG Flavourist!</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
-                    </div>
-                </div>
+    <!---LANDING SECTION START--->
+    <section id="landing-section" class="landing-section">
+        <div class="bottom-container">
+            <div class="p-1 title-div p-2">
+                <H1 class="landing-header text-center align-bottom">The MtG Flavourist</H1>
+                <h2 class="landing-statement text-center align-bottom">The Courtyard of MtG Flavour & Lore!</h2>
             </div>
         </div>
-        <!---NEWS/ADVERT BLOCK END--->
-
-        <!---ARTICLE BLOCK START--->
-        <div class="news-container container border border-danger rounded my-3">
-            <div class="m-3">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="text-left my-3">Contact Form:</h2>
-                    </div>
-                    <div class="col-12">
-                        <p>If you prefer the good ol'fashioned way of getting in touch, please fill out the contact form and we will get back to you as soon as we can! Alternatively, please get in touch via the social media links at the bottom of this web
-                            page.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <form>
-                            <div class="form-group row">
-                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                                <div class="col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                                </div>
-                            </div>
-                            <fieldset class="form-group">
-                                <div class="row">
-                                    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                                    <div class="col-sm-10">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                            <label class="form-check-label" for="gridRadios1">
-                                            First radio
-                                            </label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                            <label class="form-check-label" for="gridRadios2">
-                                            Second radio
-                                            </label>
-                                        </div>
-                                        <div class="form-check disabled">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                                            <label class="form-check-label" for="gridRadios3">
-                                            Third disabled radio
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                            <div class="form-group row">
-                                <div class="col-sm-2">Checkbox</div>
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                        <label class="form-check-label" for="gridCheck1">
-                                        Example checkbox
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-sm-10">
-                                    <button type="submit" class="btn btn-primary">Sign in</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!---ARTICLE BLOCK END--->
     </section>
+    <!---LANDING SECTION START--->
 
-    <footer>
-        <!---FOOTER START--->
-        <div class="container-fluid">
-            <div class="row">
-                <!---PARTING INFO START--->
-                <div class="col-12 my-1">
-                    Thank you for viewing our content! Please get in touch via social media!
-                </div>
-                <!---PARTING INFO END--->
-                <!---SOCIAL LINKS START--->
-                <div class="col-12 my-1">
-                    <div class="soc-links mx-3">
-                        <a href="/"><i class="fab fa-facebook fa-2x soc-icon"></i></a>
-                        <a href="/"><i class="fab fa-twitter-square fa-2x soc-icon"></i></a>
-                        <a href="/"><i class="fab fa-twitch fa-2x soc-icon"></i></a>
-                        <a href="/"><i class="fab fa-instagram fa-2x soc-icon"></i></a>
+    <div class="background-div py-3">
+
+        <!---CONTACT FORM START--->
+        <section id="contact-form-section" class="contact-form-section">
+            <div class="content-wrap p-2 mb-2">
+                <div class="container content-container text-center">
+                    <div class="m-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="text-center my-3 news-breaker">Contact the MtG Flavourist:</h2>
+                            </div>
+                            <div class="col-12">
+                                <p class="art-bio">If you prefer the good ol'fashioned way of getting in touch, please fill out the contact form and we will get back to you as soon as we can! Alternatively, please get in touch via the social media links at the bottom of
+                                    this web page.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="contact-breaker">
+                        <div class="row">
+                            <div class="col-12">
+                                <form>
+                                    <div class="form-group row">
+                                        <div class="col-sm-12 offset-md-3 col-md-6">
+                                            <input type="text" class="form-control" id="inputFN1" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-12 offset-md-3 col-md-6">
+                                            <input type="text" class="form-control" id="inputSN1" placeholder="Surname">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-12 offset-md-3 col-md-6">
+                                            <input type="email" class="form-control" id="inputEmail1" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <fieldset class="form-group">
+                                        <div class="row mb-2">
+                                            <legend class="col-form-label col-sm-12 pt-0 news-breaker">Reason:</legend>
+                                            <div class="col-sm-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                    <label class="form-check-label" for="gridRadios1">
+                                            Business Contact
+                                            </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                    <label class="form-check-label" for="gridRadios2">
+                                            Feedback/Suggestion
+                                            </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                                    <label class="form-check-label" for="gridRadios3">
+                                            Complaint
+                                            </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="form-group row">
+                                        <div class="col-sm-12">
+                                            <textarea class="form-control" id="textArea1" rows="5" placeholder="Comments"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-10">
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!---SOCIAL LINKS END--->
-                <!---COPYRIGHT INFO START--->
-                <div class="col-12 my-1">
-                    <p>All original content on this page is © 2012-2019 The MtG Flavourist, Inc. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. ©
-                        1995-2019 Wizards. All rights reserved. The MtG Flavourist, Inc. is not affiliated with Wizards of the Coast LLC.</p>
-                </div>
-                <!---COPYRIGHT INFO END--->
             </div>
-        </div>
-        <!---FOOTER END--->
-    </footer>
+        </section>
+        <!---CONTACT FORM END--->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+        <footer>
+            <!---FOOTER START--->
+            <div class="container-fluid">
+                <div class="row">
+                    <!---PARTING INFO START--->
+                    <div class="col-12 my-1">
+                        Thank you for viewing our content! Please get in touch via social media!
+                    </div>
+                    <!---PARTING INFO END--->
+                    <!---SOCIAL LINKS START--->
+                    <div class="col-12 my-1">
+                        <div class="soc-links mx-3">
+                            <a href="/"><i class="fab fa-facebook fa-2x soc-icon"></i></a>
+                            <a href="/"><i class="fab fa-twitter-square fa-2x soc-icon"></i></a>
+                            <a href="/"><i class="fab fa-twitch fa-2x soc-icon"></i></a>
+                            <a href="/"><i class="fab fa-instagram fa-2x soc-icon"></i></a>
+                        </div>
+                    </div>
+                    <!---SOCIAL LINKS END--->
+                    <!---COPYRIGHT INFO START--->
+                    <div class="col-12 my-1">
+                        <p>All original content on this page is © 2012-2019 The MtG Flavourist, Inc. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC.
+                            © 1995-2019 Wizards. All rights reserved. The MtG Flavourist, Inc. is not affiliated with Wizards of the Coast LLC.</p>
+                    </div>
+                    <!---COPYRIGHT INFO END--->
+                </div>
+            </div>
+            <!---FOOTER END--->
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
