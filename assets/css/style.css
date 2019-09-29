@@ -63,7 +63,7 @@
 }
  .call-btn:hover {
      color: rgba(255, 255, 255, 5);
-     box-shadow: 0 0 15px rgba(220, 53, 69, .8);
+     box-shadow: 0 0 15px rgba(220, 53, 69, 1);
 }
  .call-btn-text {
      font-size: 1rem;
@@ -101,6 +101,8 @@
      border-top-style: double;
      border-bottom-color: #dc3545;
      border-bottom-style: double;
+     background-color: black;
+     color: white;
 }
  .content-container {
      background-image: url("../images/Mountback.jpg");
